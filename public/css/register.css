@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  .booking {
+    background-color: #f7f7f7; }
+  
+  .container {
+    width: 1200px;
+    height: 590px;
+    margin: 0 auto;
+    margin-top: 1.7rem;
+    border-radius: 1.2rem;
+    background-image: linear-gradient(60deg, rgba(20, 156, 183, 0.9) 0%, rgba(153, 206, 157, 0.7) 50%, transparent 50%), url("../img/registering.jpg");
+    background-size: cover; 
+    position: relative;
+    /* left: 1px; */
+    top: 54px;
+}
+    
+  
+  .form {
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(4, 40px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 4rem; }
+    .form_group {
+      margin-top: 4rem; }
+      .form_group:not(:last-child) {
+        margin-bottom: 12rem; }
+    .form_input {
+      width: 400px;
+      height: 40px;
+      padding: .9rem 1.7rem;
+      font-size: 1.1rem;
+      background-color: #f3f3f3;
+      border: none;
+      outline: none; }
+      .form_input:focus {
+        border-bottom: 4px solid #25bd22; }
+      .form_input:focus:invalid {
+        border-bottom: 4px solid #de642f; }
+    .form_label {
+      position: relative;
+      top: 1rem;
+      margin-left: 1.7rem;
+      color: white;
+      font-size: 1.1rem; }
+  
+  .btn-register {
+    color: white;
+    background-color: #15bc15;
+    padding: .4rem 4rem;
+    position: relative;
+    top: 4rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 4rem;
+    text-align: center;
+    font-weight: 700;
+    transition: all .4s; }
+    .btn-register:hover {
+      background-color: #2df12d;
+      box-shadow: 0rem 1rem 2.9rem rgba(0, 0, 0, 0.9);
+      color: #dfdfdf; }
+  

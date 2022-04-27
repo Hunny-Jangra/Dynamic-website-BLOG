@@ -1,0 +1,24 @@
+.footer_src {
+    height: 24rem;
+    background-color: rgb(34, 33, 33);
+    position: relative;
+    top: 70rem;
+    text-align: center;
+
+}
+.footer_head {
+    font-size: 4rem;
+   color: white;
+}
+.footer_logo {
+    position: relative;
+    left: -4rem;
+    border-radius: 14px;
+}
+.footer_paragraph {
+    color: white;
+    font-size: 2rem;
+}
+.bold {
+    font-weight: 900;
+}
