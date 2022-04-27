@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Document</title>
+</head>
+<body class="booking">
+    <div class="container">
+        <div class="book_surf">
+            <form action="https://formspree.io/f/xbjwzezw"
+  method="POST" onsubmit="reset();" class="form">
+                
+                    <div class="form_group">
+                        <input type="text" class="form_input" name="name" placeholder="Full Name" id="name" required>
+                        <label for="name" class="form_label">Full Name</label>
+                    </div>
+                    <div class="form_group">
+                        <input type="email" class="form_input" name="email" placeholder="Email" id="email" required>
+                        <label for="email" class="form_label">Email</label>
+                    </div>
+                
+                
+                    <div class="form_group">
+                        <input type="text" name="subject" class="form_input" placeholder="Subject" id="subject" required>
+                        <label for="subject" class="form_label">Subject</label>
+                    </div>
+                    <div class="form_group">
+                        <textarea name="message" id="message" cols="55" rows="5" class="form_input form_input2 " placeholder="Message...." required></textarea>
+                        <label for="message" class="form_label">Message</label>
+                    </div>
+
+                    <button class="form_Submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
